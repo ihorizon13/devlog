@@ -45,18 +45,26 @@ h2{
   font-weight: 400;
   font-style: normal;
   color:#f02e96;
-  
+}  
+ 
+
+a.buttons {
+    display: inline-block;       /* Makes it behave like a button */
+    margin: 40px;
+    padding: 10px 20px;          /* Space inside the button */
+    background-color: #fc7fd6;   /* Button background color */
+    color: white;                /* Text color */
+    text-decoration: none;       /* Remove underline */
+    border-radius: 5px;          /* Rounded corners */
+    font-family:"Playwrite US Modern", cursive;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
 }
-.home{
-  border:30px groove #f02e96;
-  border-radius: 10px; /* All corners rounded by 10 pixels */
-  font-weight: 400;
-  font-size: 15px;
-  font-style: normal;
-  color:#681b44;
-  padding: 0px;
-  background-color: rgba(255, 192, 203, 0.306);
-  margin: 10%;
+
+
+/* Hover effect */
+a.buttons:hover {
+    background-color: #610939;
 }
 
 
