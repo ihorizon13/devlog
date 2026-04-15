@@ -21,7 +21,7 @@ img{
 
 a {
   font-weight: 500;
-  color: #e189b6;
+  color: #64123c;
   text-decoration: inherit;
 }
 
@@ -35,7 +35,8 @@ a:hover {
 h1 {
   font-size: 3em;
   line-height: 1.1;
-  font-family: "Dancing Script", cursive;
+  font-family: "Playwrite US Modern", cursive;
+  margin-top:auto;
 }
 
 h2{
@@ -48,23 +49,80 @@ h2{
 }  
  
 
-a.buttons {
-    display: inline-block;       /* Makes it behave like a button */
-    margin: 40px;
-    padding: 10px 20px;          /* Space inside the button */
-    background-color: #fc7fd6;   /* Button background color */
-    color: white;                /* Text color */
-    text-decoration: none;       /* Remove underline */
-    border-radius: 5px;          /* Rounded corners */
-    font-family:"Playwrite US Modern", cursive;
-    font-size: 16px;
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+.buttons,
+.save-entry-btn {
+  padding: 0.65rem 1.2rem;
+  border: 1px solid #b30f68;
+  border-radius: 999px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Playwrite US Modern", cursive;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  background: linear-gradient(180deg, #ff79c7 0%, #f02e96 48%, #c41273 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    inset 0 -1px 0 rgba(100, 5, 60, 0.45),
+    0 10px 18px rgba(224, 35, 134, 0.32);
+  cursor: pointer;
+  position: relative;
+  transition: transform 180ms ease, box-shadow 180ms ease, filter 180ms ease;
 }
 
+a.buttons {
+  display: inline-block;
+  margin: 40px;
+}
 
-/* Hover effect */
-a.buttons:hover {
-    background-color: #610939;
+.save-entry-btn {
+  margin-top: 0.75rem;
+}
+
+.buttons::before,
+.save-entry-btn::before {
+  content: "";
+  position: absolute;
+  left: 8%;
+  top: 8%;
+  width: 84%;
+  height: 44%;
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.08));
+  pointer-events: none;
+}
+
+.buttons:hover,
+.save-entry-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  filter: saturate(1.08);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.64),
+    inset 0 -1px 0 rgba(100, 5, 60, 0.48),
+    0 14px 24px rgba(224, 35, 134, 0.4);
+}
+
+.buttons:active,
+.save-entry-btn:active:not(:disabled) {
+  transform: translateY(1px);
+  box-shadow:
+    inset 0 2px 4px rgba(100, 5, 60, 0.35),
+    0 6px 12px rgba(224, 35, 134, 0.22);
+}
+
+.buttons:focus-visible,
+.save-entry-btn:focus-visible {
+  outline: 3px solid rgba(240, 46, 150, 0.35);
+  outline-offset: 3px;
+}
+
+.save-entry-btn:disabled {
+  opacity: 0.62;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.35),
+    0 4px 8px rgba(90, 35, 66, 0.18);
 }
 
 

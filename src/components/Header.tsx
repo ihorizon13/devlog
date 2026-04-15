@@ -5,9 +5,9 @@ export default function Header() {
   return (
     <>
 
-<header className = "hero-content flex-col lg:flex-row" style={{backgroundImage: `url(${banner})`}}>
+<header className = "hero min-h-[50vh] bg-cover bg-center bg-no-repeat" style={{backgroundImage: `url(${banner})`}}>
 
-<img className= "max-w-sm rounded-lg shadow-2xl" src ={oldPic} alt = "Izzy's Selfie"></img>
+<img className= "w-32 rounded" src ={oldPic} alt = "Izzy's Selfie"></img>
 
             <h1 className='name'><a href= "https://www.linkedin.com/in/isisel-badillo-matiaz-49b735201/">Isisel 
             Badillo-Matiaz</a></h1>

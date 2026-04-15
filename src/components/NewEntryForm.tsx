@@ -91,7 +91,7 @@ function handleSubmit(event: FormEvent<HTMLFormElement>) {
 )}
         </p>
 
-        <button type="submit" disabled={submitted && !isValid}>Save Entry</button>
+        <button className="save-entry-btn" type="submit" disabled={submitted && !isValid}>Save Entry</button>
       </form>
     </> 
   );
