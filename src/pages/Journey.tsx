@@ -85,21 +85,22 @@ export default function Journey() {
             <h2>Technology</h2>
 
             <h3>Geek Week</h3>
-            <p><strong>SQL testing, Excel challenges, Hot Keys:</strong> [Summarize your experience.]</p>
-            <p><strong>Timed testing & performance growth:</strong> [How did you improve?]</p>
-            <p><strong>Data analysis & coaching insights:</strong> [What did you learn?]</p>
+            <p><strong>SQL testing, Excel challenges, Hot Keys:</strong> It was a stressful week, but when I completed all 15 tasks, I was so proud of myself. I was doubting if I was ever gonna make it. But with the support from my tech trainers and the encouragement from my cohort mates, it pushed me to the finish line!</p>
+            <p><strong>Timed testing & performance growth:</strong> It was amazing to see, not just in myself, but everyone develop fast typing skills and do things in SECONDS! </p>
+            <p><strong>Data analysis & coaching insights:</strong> Everyone has a different style of learning, and you have to learn patience... </p>
 
             <h3>Debugging, Testing & Asking Good Questions</h3>
-            <p>[Describe your growth in debugging, testing, and learning to ask good technical questions.]</p>
+            <p>Using the error messages and researching online is the best thing you can do for debugging.</p>
 
             <h3>GitHub & Version Control</h3>
-            <p>[Reflect on collaboration through GitHub, branching, and version control.]</p>
+            <p>Version control is such a great tool to avoid breaking your code and not having a way to return it to it's original state!</p>
 
             <h3>Cloud & Business Tools</h3>
-            <p>[Describe your use of Office 365, Google Drive, Trello, Teams, Zoom, Outlook, and Windows Explorer.]</p>
+            <p>Personally, since using Microsoft 365 apps, I have incorporated its uses to my private life. It's great for accessing all my apps and tools in one place and its all being stored into my oneDrive.
+            </p>
 
             <h3>Typing Speed</h3>
-            <p>[Did you hit or surpass 40+ WPM? Share your progress.]</p>
+            <p>I hit my 40+ wpm and I believe its much faster now after geek week haha!</p>
 
           </section>
         )}
