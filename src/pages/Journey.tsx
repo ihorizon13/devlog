@@ -40,17 +40,14 @@ export default function Journey() {
           <section>
             <h2>Leadership</h2>
 
-            <h3>Team Week</h3>
-            <p>[Reflect on your experience during Team Week and your role on your team.]</p>
-
-            <h3>Gifts Project</h3>
-            <p>[Share deliverables or insights from your Gifts Project.]</p>
-
-            <h3>Community Role</h3>
-            <p>[Describe your contributions to your Community Role and how you showed leadership in service.]</p>
-
             <h3>Giving & Receiving Feedback / Planetary Responsibility</h3>
-            <p>[Highlight key takeaways from these workshops.]</p>
+            <p>
+              <ul>
+                <li>I learned that my planetary responsbility is: to guide...</li>
+                <li>It takes a lot of vunerability to ask for help, I learned to give people the time and space to ask for it when THEY are ready to recieve it...</li>
+                <li></li>              
+              </ul>
+            </p>
 
             <h3>Tea Host Experience</h3>
             <p>[Reflect on your experience serving as a Tea Host — how you prepared and engaged with Tea Guests.]</p>
@@ -82,14 +79,6 @@ export default function Journey() {
             <h3>RFP Proposal Presentation</h3>
             <p>[Share artifacts and takeaways from your proposal presentation in response to the RFP.]</p>
 
-            <h3>Company Engagement Days</h3>
-            <p>[Share insights from engagement days with Accenture, Salesforce, and other company partners.]</p>
-
-            <h3>Working with Mentors, Clients & Guest Consultants</h3>
-            <p><strong>Feedback received:</strong> [How did you receive feedback?]</p>
-            <p><strong>How you adapted:</strong> [How did you adapt or improve your team's approach?]</p>
-            <p><strong>Business professionalism:</strong> [What did you learn about business professionalism and communication?]</p>
-
             <h3>Allskates & Tea Guest Highlights</h3>
             <p>[Highlight relevant experiences from Allskates, Tea Guests, or feedback from external guests.]</p>
           </section>
@@ -100,17 +89,10 @@ export default function Journey() {
           <section>
             <h2>Technology</h2>
 
-            <h3>Web Application Walkthrough</h3>
-            <p><strong>Business/user problem it solves:</strong> [What problem does your app solve?]</p>
-            <p><strong>Your personal contribution:</strong> [What part did you personally build — front-end, back-end, logic, etc.?]</p>
-
             <h3>Geek Week</h3>
             <p><strong>SQL testing, Excel challenges, Hot Keys:</strong> [Summarize your experience.]</p>
             <p><strong>Timed testing & performance growth:</strong> [How did you improve?]</p>
             <p><strong>Data analysis & coaching insights:</strong> [What did you learn?]</p>
-
-            <h3>Coding Moments — Clicks & Breakthroughs</h3>
-            <p>[Reflect on moments when coding "clicked" — or when you struggled and overcame it.]</p>
 
             <h3>Debugging, Testing & Asking Good Questions</h3>
             <p>[Describe your growth in debugging, testing, and learning to ask good technical questions.]</p>
@@ -124,8 +106,6 @@ export default function Journey() {
             <h3>Typing Speed</h3>
             <p>[Did you hit or surpass 40+ WPM? Share your progress.]</p>
 
-            <h3>5-Hour Minimums</h3>
-            <p>[Reflect on your 5-hour minimum commitments and what they meant for your consistency and growth.]</p>
           </section>
         )}
 
@@ -162,24 +142,16 @@ export default function Journey() {
             <h2>Wellness</h2>
 
             <h3>Financial Wellness</h3>
-            <p>[Reflect on your spending patterns and what you've learned about managing your money.]</p>
             <p>[List your short- and long-term financial goals.]</p>
-            <p>[Share notes from financial workshops or techniques to improve your credit score.]</p>
 
             <h3>Emotional Wellness</h3>
-            <p>[Write about an emotionally challenging moment and how you navigated it.]</p>
             <p>[Reflect on how you've challenged negative self-talk or imposter syndrome.]</p>
-            <p>[Share affirmations or self-talk upgrades that have supported you.]</p>
 
             <h3>Mental Wellness</h3>
-            <p>[List coping strategies that work for you.]</p>
             <p>[Reflect on how you've handled stress or burnout throughout the program.]</p>
-            <p>[Describe your personal "mental wellness toolbox."]</p>
 
             <h3>Physical Wellness</h3>
             <p>[Share a habit you've improved or started (hydration, sleep, movement, etc.).]</p>
-            <p>[Reflect on a physical routine you've built and how it supports your focus and energy.]</p>
-            <p>[List local resources you use or plan to use (clinic, gym, therapist, etc.).]</p>
           </section>
         )}
 
