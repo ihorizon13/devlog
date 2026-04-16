@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import Home from './pages/Home'
 import AboutSection from './pages/AboutSection'
 import  Entries  from './pages/Entries'
+import Journey from './pages/Journey'
 import NewEntryForm from './components/NewEntryForm'
 import seedEntries from './data/entries'
 import type { Entry, Mood } from './data/entries'
@@ -36,6 +37,7 @@ export default function App(){
       <Route path="/AboutSection" element={<AboutSection />} />
       <Route path="/Entries" element={<Entries entries={entries}/>} />
       <Route path="/entries/new" element={<NewEntryForm onAddEntry={handleAddEntry}/>} />
+      <Route path="/Journey" element={<Journey />} />
     </Routes>
 
   

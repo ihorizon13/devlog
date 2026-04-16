@@ -125,5 +125,24 @@ a.buttons {
     0 4px 8px rgba(90, 35, 66, 0.18);
 }
 
+/* Journey page — inactive tab buttons */
+.tab-inactive {
+  padding: 0.65rem 1.2rem;
+  border: 1px solid #c41273;
+  border-radius: 999px;
+  color: #c41273;
+  background: transparent;
+  font-family: "Playwrite US Modern", cursive;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: background 180ms ease, color 180ms ease;
+}
+
+.tab-inactive:hover {
+  background: rgba(240, 46, 150, 0.1);
+}
+
 
 

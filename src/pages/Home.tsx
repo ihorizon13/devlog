@@ -15,6 +15,7 @@ export default function Home({ onAddEntry }: HomeProps) {
 
     <Link className="buttons" to="/AboutSection">Go to About Page</Link>
     <Link className="buttons" to="/Entries">Go to Entries Page</Link>
+    <Link className="buttons" to="/Journey">Read Through My Journey</Link>
     
     <div className = "home-heading">Welcome to my Digital Portfolio! Have a look around...</div>
 
