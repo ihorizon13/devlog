@@ -70,10 +70,10 @@ export default function Journey() {
             <p>Team approach: Job Description Generating Tool using AI </p>
             <p>Your role: UI/UX lead and helped with backend creation/connection.</p>
 
-            <h3>Consulting Company</h3>
+            <h3><strong>Consulting Company</strong></h3>
             <p>Our group was "OrangeCoeur", we wanted to take a different approach with our values and mission. We wanted to create a connection and be more personable, ensuring our client felt like they are being <strong>heard</strong>.</p>
 
-            <h3>RFP Proposal Presentation</h3>
+            <h3><strong>RFP Proposal Presentation</strong></h3>
             <p>Our client wanted a AI tool that was easy to navigate, quick to generate JDs, and track all JD versions.</p>
 
           </section>
@@ -84,22 +84,22 @@ export default function Journey() {
           <section>
             <h2>Technology</h2>
 
-            <h3>Geek Week</h3>
+            <h3><strong>Geek Week</strong></h3>
             <p><strong>SQL testing, Excel challenges, Hot Keys:</strong> It was a stressful week, but when I completed all 15 tasks, I was so proud of myself. I was doubting if I was ever gonna make it. But with the support from my tech trainers and the encouragement from my cohort mates, it pushed me to the finish line!</p>
             <p><strong>Timed testing & performance growth:</strong> It was amazing to see, not just in myself, but everyone develop fast typing skills and do things in SECONDS! </p>
             <p><strong>Data analysis & coaching insights:</strong> Everyone has a different style of learning, and you have to learn patience... </p>
 
-            <h3>Debugging, Testing & Asking Good Questions</h3>
+            <h3><strong>Debugging, Testing & Asking Good Questions</strong></h3>
             <p>Using the error messages and researching online is the best thing you can do for debugging.</p>
 
-            <h3>GitHub & Version Control</h3>
+            <h3><strong>GitHub & Version Control</strong></h3>
             <p>Version control is such a great tool to avoid breaking your code and not having a way to return it to it's original state!</p>
 
-            <h3>Cloud & Business Tools</h3>
+            <h3><strong>Cloud & Business Tools</strong></h3>
             <p>Personally, since using Microsoft 365 apps, I have incorporated its uses to my private life. It's great for accessing all my apps and tools in one place and its all being stored into my oneDrive.
             </p>
 
-            <h3>Typing Speed</h3>
+            <h3><strong>Typing Speed</strong></h3>
             <p>I hit my 40+ wpm and I believe its much faster now after geek week haha!</p>
 
           </section>
@@ -132,19 +132,19 @@ export default function Journey() {
           <section>
             <h2>Wellness</h2>
 
-            <h3>Financial Wellness</h3>
+            <h3><strong>Financial Wellness</strong></h3>
             <ul>
               <li>Short-Term Goal: Save Around $1,000 to have in case of emergencies</li>
               <li>Long-Term Goal: Pay Off Credit Cards and maintain good credit score</li>
             </ul>
 
-            <h3>Emotional Wellness</h3>
+            <h3><strong>Emotional Wellness</strong></h3>
             <p>When I start to feel off or the negative talk are overtaking my thoughts, I remind myself of what others have said about me. Their encouragement and the trust they have placed in me...</p>
 
-            <h3>Mental Wellness</h3>
+            <h3><strong>Mental Wellness</strong></h3>
             <p>To avoid burnout, I would take breaks when working from home. A minute to step away and refresh my brain. Also adapted self-care habits into my weekly routine, pampering myself with facials, treats, etc...</p>
 
-            <h3>Physical Wellness</h3>
+            <h3><strong>Physical Wellness</strong></h3>
             <p>I have started a habit involving movement! Everyday, I go on a 5-10 minute walk after having lunch to put in my steps. Every week I add on 5 minutes more to make it more exciting!</p>
           </section>
         )}
