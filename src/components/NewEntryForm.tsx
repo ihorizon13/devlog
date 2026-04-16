@@ -43,7 +43,7 @@ function handleSubmit(event: FormEvent<HTMLFormElement>) {
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
+      <form className="entry-form" onSubmit={handleSubmit}>
         <p>
           <label htmlFor="entry-title">Title</label>
           <br />
