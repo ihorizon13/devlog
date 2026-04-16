@@ -40,26 +40,23 @@ export default function Journey() {
           <section>
             <h2>Leadership</h2>
 
-            <h3>Giving & Receiving Feedback / Planetary Responsibility</h3>
-            <p>
-              <ul>
-                <li>I learned that my planetary responsbility is: to guide...</li>
-                <li>It takes a lot of vunerability to ask for help, I learned to give people the time and space to ask for it when THEY are ready to recieve it...</li>
-                <li></li>              
-              </ul>
-            </p>
+            <h3><strong>Giving & Receiving Feedback / Planetary Responsibility</strong></h3>
+            <ul>
+              <li>I learned that my planetary responsbility is: to guide...</li>
+              <li>It takes a lot of vunerability to ask for help, I learned to give people the time and space to ask for it when THEY are ready to recieve it...</li>
+            </ul>
 
-            <h3>Tea Host Experience</h3>
-            <p>[Reflect on your experience serving as a Tea Host — how you prepared and engaged with Tea Guests.]</p>
+            <h3><strong>Tea Host Experience</strong></h3>
+            <p>As someone who can be nervous at times, being a Tea Host helped me build my social skills tremendously! I can carry out a conversation with ease and not lose the flow, ensuring my guests felt heard and at home at i.c.stars!</p>
 
-            <h3>Tea Debriefs</h3>
-            <p>[Share key lessons from Tea Debriefs or reflective discussions with your cohort.]</p>
+            <h3><strong>Tea Debriefs</strong></h3>
+            <p>What I learned: There is never a dumb question to ask, seek and lean on your team, and communication is always key!</p>
 
-            <h3>Dream Speech</h3>
-            <p>[Highlight your Dream Speech — were you recognized as a business, service, or civic leader?]</p>
+            <h3><strong>Dream Speech</strong></h3>
+            <p>For my dream speech, I was recognized for being a global tech leader and advocate for women in the tech field by creating an organization called Las Innovadoras...</p>
 
             <h3>CIVICs Project</h3>
-            <p>[What did you learn from your CIVICs Project, and how will you put it to immediate use post-internship?]</p>
+            <p>I learned how almost every issue share similar root causes, making it seem like it is hard to tackle the issues our society deals with. But that is not enough of a reason to give up. Change can't happen unless we do our civic duties!</p>
           </section>
         )}
 
@@ -68,19 +65,17 @@ export default function Journey() {
           <section>
             <h2>Business</h2>
 
-            <h3>Client Project Overview</h3>
-            <p><strong>Business problem:</strong> [What was the business problem your team addressed?]</p>
-            <p><strong>Team approach:</strong> [How did your team approach the solution?]</p>
-            <p><strong>Your role:</strong> [What was your individual role and contribution?]</p>
+            <h3><strong>Client Project Overview</strong></h3>
+            <p>Business problem: HR Department Job Description Process Being Held-Up / Long JD Life-cycle...</p>
+            <p>Team approach: Job Description Generating Tool using AI </p>
+            <p>Your role: UI/UX lead and helped with backend creation/connection.</p>
 
             <h3>Consulting Company</h3>
-            <p>[Reflect on forming and working in your Consulting Company.]</p>
+            <p>Our group was "OrangeCoeur", we wanted to take a different approach with our values and mission. We wanted to create a connection and be more personable, ensuring our client felt like they are being <strong>heard</strong>.</p>
 
             <h3>RFP Proposal Presentation</h3>
-            <p>[Share artifacts and takeaways from your proposal presentation in response to the RFP.]</p>
+            <p>Our client wanted a AI tool that was easy to navigate, quick to generate JDs, and track all JD versions.</p>
 
-            <h3>Allskates & Tea Guest Highlights</h3>
-            <p>[Highlight relevant experiences from Allskates, Tea Guests, or feedback from external guests.]</p>
           </section>
         )}
 
@@ -114,25 +109,20 @@ export default function Journey() {
           <section>
             <h2>Career Planning</h2>
 
-            <h3>Short- & Long-Term Career Plans</h3>
-            <p><strong>Tech roles:</strong> [What tech roles do you want to pursue?]</p>
-            <p><strong>Leadership/entrepreneurial goals:</strong> [Where do you see yourself as a leader?]</p>
-            <p><strong>Business/consulting aspirations:</strong> [What are your consulting or business goals?]</p>
+            <h3><strong>Short- & Long-Term Career Plans</strong></h3>
+            <p>Tech roles:Project Coodinator/Assitant</p>
+            <p>Leadership/entrepreneurial goals: Want to be able to manage temas and create a collaborative enviornment. Each person is a piece of a puzzle that fits perfectly...</p>
+            <p>Business/consulting aspirations: Being able to see client satisfaction, that the service I provided is what they needed are are content!</p>
 
-            <h3>Working with Career Development Director & Program Manager</h3>
-            <p>[Reflect on your experience and takeaways from working with them.]</p>
+            <h3><strong>Resume & Job-Search Preparation</strong></h3>
+            <p>I should highlight the more relevant tech experience I have but during interviews, make mentions of my administrative work. </p>
 
-            <h3>Employer Partner Workshops</h3>
-            <p>[Share insights from workshops with Accenture, Capital One, Salesforce, and other employer partners.]</p>
-
-            <h3>Resume & Job-Search Preparation</h3>
-            <p>[What feedback did you receive on your resume? How are you preparing for the job search?]</p>
-
-            <h3>Personal Professional Brand & Values</h3>
-            <p>[Describe your personal professional brand or the core values that guide your career.]</p>
+            <h3><strong>Personal Professional Brand & Values</strong></h3>
+            <p>Core Values: Reliability, Adaptibility, Service, Ethics, & Wisdom...</p>
+            <p>Brand: I want to be someone that if people need help, they think of me. That they can trust in me when it comes to providing a solutions to your needs and will do all that I can to ensure you feel seen & understood...</p>
 
             <h3>Roles I'm Most Interested In</h3>
-            <p>[Identify the roles you're most interested in (e.g., Software Developer, Product Manager, Business Analyst, QA Tester) and explain why — what aligns with your interests, skills, and purpose?]</p>
+            <p>Project Manager: I like to be organized, help the flow of processes, and being highly detailed. I can see what each persons' strengths and weaknesses are and what tasks might be best for them to focus or challenge theirselves with.</p>
           </section>
         )}
 
@@ -142,16 +132,19 @@ export default function Journey() {
             <h2>Wellness</h2>
 
             <h3>Financial Wellness</h3>
-            <p>[List your short- and long-term financial goals.]</p>
+            <ul>
+              <li>Short-Term Goal: Save Around $1,000 to have in case of emergencies</li>
+              <li>Long-Term Goal: Pay Off Credit Cards and maintain good credit score</li>
+            </ul>
 
             <h3>Emotional Wellness</h3>
-            <p>[Reflect on how you've challenged negative self-talk or imposter syndrome.]</p>
+            <p>When I start to feel off or the negative talk are overtaking my thoughts, I remind myself of what others have said about me. Their encouragement and the trust they have placed in me...</p>
 
             <h3>Mental Wellness</h3>
-            <p>[Reflect on how you've handled stress or burnout throughout the program.]</p>
+            <p>To avoid burnout, I would take breaks when working from home. A minute to step away and refresh my brain. Also adapted self-care habits into my weekly routine, pampering myself with facials, treats, etc...</p>
 
             <h3>Physical Wellness</h3>
-            <p>[Share a habit you've improved or started (hydration, sleep, movement, etc.).]</p>
+            <p>I have started a habit involving movement! Everyday, I go on a 5-10 minute walk after having lunch to put in my steps. Every week I add on 5 minutes more to make it more exciting!</p>
           </section>
         )}
 
